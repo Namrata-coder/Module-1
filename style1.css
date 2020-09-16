@@ -1,0 +1,88 @@
+/** @format */
+
+.contain_text {
+  height: 400px;
+  background-color: rgb(81, 255, 0);
+
+  margin: 50px 0px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.233);
+  overflow-wrap: break-word;
+  widows: 300px;
+  height: 400px;
+  overflow: hidden;
+  overflow-y: scroll
+}
+
+.contain_text h1 {
+  font-size: 50px;
+  text-align: center;
+  opacity: 50%;
+  transition: all 0.5s;
+}
+
+.contain_text h1:hover {
+  opacity: 100%;
+}
+.content {
+  font-size: 20px;
+  margin: 20px 0px;
+  opacity: 75%;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+
+.textarea_container {
+  margin-top: 20px;
+}
+
+.btn-black {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.555);
+}
+
+.btn-black:hover {
+  color: white;
+}
+
+.btn-round {
+  border-radius: 50px !important;
+  width: 100px;
+}
+.btn-primary:hover {
+  box-shadow: 10px 10px 10px rgba(1, 204, 255, 0.363);
+}
+
+.btn-danger:hover {
+  box-shadow: 10px 10px 10px rgba(255, 39, 1, 0.486);
+}
+
+.btn-black:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.246);
+}
+
+.btn-success:hover {
+  box-shadow: 10px 10px 10px rgb(4, 148, 4);
+} 
+.btn-warning:hover
+ {
+   box-shadow: 10px 10px 10px rgba(231, 231, 3, 0.959)
+ }
+#text_area_text {
+  border: 1px solid blue;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#text_area_text:focus {
+  outline: 0px;
+}
+.textarea_container {
+  margin-top: 20px;
+}
+
